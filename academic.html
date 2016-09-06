@@ -30,7 +30,7 @@
 
     <div id="collapsable-nav" class="collapse navbar-collapse">
       <ul id="nav-list" class="nav navbar-nav navbar-right">
-        <li>
+        <li class="active">
           <a href="academic.html">
             <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Academic</a>
         </li>
@@ -52,26 +52,25 @@
 
 
 <div id="main-content" class="container">
-  <div class="jumbotron">
-    <img src="images/jumbo-1200-2.jpg" alt="Picture of latest" class="img-responsive visible-xs">
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Choose Field
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="#">1st Semester</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Chemical and Process Engineering</a></li>
+      <li><a href="#">Computer Science and Engineering</a></li>
+      <li><a href="#">Earth Resources Engineering</a></li>
+      <li><a href="#">Civil Engineering</a></li>
+      <li><a href="#">Electrical Engineering</a></li>
+      <li><a href="#">Electronic and Telecommunication Engineering</a></li>
+      <li><a href="#">Materials Science and Engineering</a></li>
+      <li><a href="#">Mechanical Engineering</a></li>
+    </ul>
   </div>
-
-  <div id="home-tiles" class="row">
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a href="academic.html"><div id="menu-tile"><span>Academics</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a href="events.html"><div id="specials-tile"><span>Events</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-12 col-xs-12">
-      <a href="https://www.google.com/maps/place/University+of+Moratuwa/@6.7968823,79.8995894,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae245416b7f34b5:0x7bd32721ab02560e!8m2!3d6.796877!4d79.9017781" target="_blank">
-        <div id="map-tile">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7776754640713!2d79.89958941394035!3d6.796882321812461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae245416b7f34b5%3A0x7bd32721ab02560e!2sUniversity+of+Moratuwa!5e0!3m2!1sen!2s!4v1472931324143" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <span>map</span>
-        </div>
-      </a>
-    </div>
-  </div>
+  
 </div>
 
 <footer class="panel-footer">
